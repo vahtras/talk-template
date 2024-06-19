@@ -8,7 +8,6 @@ titlepage
 
 ---
 
-layout: false
 
 ## Write me
 
