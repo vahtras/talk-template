@@ -5,6 +5,6 @@
   margin-right: auto;
 }
 </style>
-<link rel="stylesheet" href="{{ BASE }}/refreeze/js/highlight/styles/gruvbox-light.css">
-<script src="{{ BASE }}/refreeze/js/highlight/highlight.pack.js"></script>
+<link rel="stylesheet" href="{{ base }}/refreeze/js/highlight/styles/gruvbox-light.css">
+<script src="{{ base }}/refreeze/js/highlight/highlight.pack.js"></script>
 <script>hljs.initHighlightingOnLoad();</script>
