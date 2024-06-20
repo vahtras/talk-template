@@ -1,10 +1,17 @@
 #!/usr/bin/env python
 
-import flask
+import pathlib
 import random
 
-root = '/Users/olav/dev/py/flask/talk-template'
-app = flask.Flask(__name__, static_folder=root, static_url_path='/talk-template', template_folder=root)
+import flask
+
+root = pathlib.Path(__file__).parent
+app = flask.Flask(
+    __name__,
+    static_folder=root,
+    static_url_path=f'/{root.stem}',
+    template_folder=root,
+)
 
 
 @app.route('/')
